@@ -1,0 +1,12 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+   "api-test": "newman run API_Salesforce_Test.postman_collection.json -e API\API_Salesforce_Test.postman_environment.json -r htmlextra"
+  },
+  "author": "Anton",
+  "dependencies": {
+    "newman": "^4.5.1"
+  }
+}
